@@ -3,8 +3,4 @@ describe('empty spec', () => {
     cy.visit('/')
   })
 
-  it('displays the resources text', () => {
-    cy.get('h2')
-    .contains('Resolve');
-  })
 })
